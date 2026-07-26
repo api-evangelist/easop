@@ -1,8 +1,13 @@
 aid: easop
 name: Easop
-description: 'Easop is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Applicative SaaS. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Easop is a global equity compensation platform that helps startups and growing
+  companies award and manage employee stock options and equity incentives across 70+ countries.
+  It automates the legal workflows, board consents, country-specific tax and regulatory
+  compliance, and employee education required to grant equity to international teams, and offers
+  equity projection and compensation-grid planning plus integrations with cap-table tools such as
+  Carta and Pulley. Easop was acquired by Remote in 2024. This API Evangelist profile was surfaced
+  as a Partech portfolio company; Easop is a business SaaS application and publishes no public
+  developer API, documentation, SDKs, or well-known discovery surface as of this enrichment pass.'
 url: https://raw.githubusercontent.com/api-evangelist/easop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,30 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/63175aecdabe235dfdba67d2/64f6f583b8c131d29783673e_easop-og.png
 tags:
 - Company
-- Applicative Saas
+- Applicative SaaS
+- Equity Compensation
+- Stock Options
+- HR Tech
+- Legal Operations
+- Global Compliance
+- Cap Table
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.easop.com/
+- type: Blog
+  url: https://www.easop.com/blog
+- type: Integrations
+  url: https://www.easop.com/integrations
+- type: SignUp
+  url: https://app.easop.com/?Source=Website
+- type: Support
+  url: mailto:info@easop.com
+- type: TermsOfService
+  url: https://www.easop.com/terms/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.easop.com/terms/privacy-policy
+- type: Careers
+  url: https://easop.crew.work/jobs
+- type: DomainSecurity
+  url: security/easop-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
