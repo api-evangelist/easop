@@ -43,7 +43,7 @@ modified: '2026-07-18'
 image: https://cdn.prod.website-files.com/63175aecdabe235dfdba67d2/64f6f583b8c131d29783673e_easop-og.png
 tags:
 - Company
-- Applicative Saas
+- Applicative SaaS
 - Equity Compensation
 - Stock Options
 - HR Tech
@@ -66,6 +66,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/remote-com/
+  name: Remote
+  x-relationship: acquired
+  x-evidence: "Easop was acquired by Remote in 2024."
 - type: Website
   url: https://www.easop.com/
 - type: Blog
